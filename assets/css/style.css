@@ -1,0 +1,103 @@
+body {
+	background-image: url("../img/background.jpg");
+	background-color: #333333;
+	font-family:Calibri;
+}
+
+.headerCell {
+	background-color:#6688AA; 
+	border: 2px solid #000000; 
+	width:1000;
+}
+
+.bodyCell {
+	background-color:#6688AA; 
+	border: 2px solid #000000; 
+	width:700; 
+	padding:50;
+}
+
+.navLink {
+	font-family:Impact;
+	font-size:30;
+	color:#444444;
+}
+
+.navLink a:link {
+	color:#444444;
+}
+
+.navLink a:visited {
+	color:#444444;
+}
+
+.navLink a:hover {
+	color:#CCCCCC;
+}
+
+.navLink a:active {
+	color:#CCCCCC;
+}
+
+.navCurrent {
+	font-family:Impact;
+	font-size:40;
+}
+
+a:link {
+	color:#000000;
+}
+
+a:visited {
+	color:#000000;
+}
+
+a:hover {
+	color:#CCCCCC;
+}
+
+a:active {
+	color:#CCCCCC;
+}
+
+.navCurrent a:link {
+	color:#000000;
+}
+
+.navCurrent a:visited {
+	color:#000000;
+}
+
+.navCurrent a:hover {
+	color:#CCCCCC;
+}
+
+.navCurrent a:active {
+	color:#CCCCCC;
+}
+
+#footer a:link {
+	color:#444444;
+}
+
+#footer a:visited {
+	color:#444444;
+}
+
+#footer a:hover {
+	color:#CCCCCC;
+}
+
+#footer a:active {
+	color:#CCCCCC;
+}
+
+.gallery img {
+  width: 150px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  opacity: 1;
+}
